@@ -1,0 +1,24 @@
+{
+  "name": "profile-query-form",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "server": "json-server --watch db.json --port 3001",
+    "start:all": "concurrently \"npm run server\" \"npm run dev\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "latest",
+    "concurrently": "latest",
+    "json-server": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest"
+  }
+}

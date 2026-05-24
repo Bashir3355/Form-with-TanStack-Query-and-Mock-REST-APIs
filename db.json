@@ -1,0 +1,9 @@
+{
+  "profile": {
+    "username": "Bashir A",
+    "email": "bashir@example.com",
+    "bio": "I am learning React Hook Form with TanStack Query.",
+    "notifications": true
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}
