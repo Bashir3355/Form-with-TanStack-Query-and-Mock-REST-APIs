@@ -33,14 +33,3 @@ http://localhost:3001/profile
 ```
 
 
-today I will demonstrate my React Hook Form and TanStack Query assignment.
-
-In this project, I created a User Profile Form using React, React Hook Form, TanStack Query, and JSON Server. The form loads user profile data from a mock REST API using useQuery and automatically fills the form using reset(data).
-
-The form includes username, email, bio, and notifications fields with validation and error handling. I also used useMutation to update the profile using a PUT request.
-
-After a successful update, the app automatically invalidates the cache using invalidateQueries and resets the form state. The Save button stays disabled until changes are made using formState.isDirty.
-
-I also simulated a server-side email conflict using conflict@example.com and displayed the error directly under the email field using setError().
-
-To run the project, I used npm install and npm run start:all which starts both the React app and JSON Server.
